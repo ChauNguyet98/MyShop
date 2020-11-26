@@ -1,0 +1,58 @@
+<div class="menu-component">
+    <div nz-row class="header">
+      <div class="logo"> 
+        <img src="./assets/img/logo.png" width="300" height="100">
+      </div>
+      <div class="search">
+        <nz-input-group nzSearch [nzAddOnAfter]="suffixIconButton">
+          <input type="text" nz-input placeholder="Search" />
+        </nz-input-group>
+        <ng-template #suffixIconButton>
+          <button nz-button nzType="primary" nzSearch><i nz-icon nzType="search"></i></button>
+        </ng-template>
+      </div>
+      <div class="btn-menu" style="display: flex;">
+        <button nz-button nzType="default">ĐĂNG NHẬP</button>
+        <button nz-button nzType="default">ĐĂNG KÍ</button>
+        <button nz-button nzType="default">
+          <i nz-icon nzType="shopping-cart"></i>
+          Giỏ hàng
+        </button>
+      </div>
+    </div>
+    <div nz-row class="menu-menu">
+      <ul nz-menu nzMode="horizontal">
+        <li nz-menu-item nzSelected>
+          <i nz-icon nzType="mail"></i>
+          Trang chủ
+        </li>
+        <li nz-menu-item>
+          <i nz-icon nzType="mail"></i>
+          Chăm sóc toàn thân
+        </li>
+        <li nz-menu-item>
+          <i nz-icon nzType="appstore"></i>
+          Trang điểm
+        </li>
+        <li nz-menu-item>
+          <i nz-icon nzType="appstore"></i>
+          Chăm sóc tóc
+        </li>
+        <li nz-menu-item>
+          <i nz-icon nzType="appstore"></i>
+          Thực phẩm chức năng
+        </li>
+        <li nz-menu-item>
+          <i nz-icon nzType="appstore"></i>
+          Nước hoa
+        </li>
+        <li nz-menu-item>
+            <i nz-icon nzType="appstore"></i>
+            Phụ kiện
+          </li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
