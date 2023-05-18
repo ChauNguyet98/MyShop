@@ -1,0 +1,21 @@
+<nz-layout class="app-layout">
+  <nz-layout>
+    <nz-header>
+      <div class="app-header">
+        <!-- <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
+            <i class="trigger"
+               nz-icon
+               [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+            ></i>
+        </span> -->
+        <app-menu></app-menu>
+      </div>
+    </nz-header>
+    <nz-content>
+      <div class="inner-content">
+        <!-- <router-outlet></router-outlet> -->
+        <app-carousel></app-carousel>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>
